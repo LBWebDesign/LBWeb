@@ -16,3 +16,10 @@ body{
     background-size: 100%;
 
 }
+@media screen and (max-width:1200px){
+    body{
+        background-size: 100%
+        padding: 100px 40px;
+    }
+    
+}
