@@ -92,3 +92,10 @@ ul li a:hover:before{
 	transition-delay: 0.2s;
 
 }
+@media screen and (max-width:1200px){
+	ul{
+		background-size: 100%
+		padding: 100px 40px;
+	}
+    
+}
