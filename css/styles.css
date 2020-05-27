@@ -390,7 +390,11 @@ h5, .h5 {
 h6, .h6 {
   font-size: 1rem;
 }
-
+.h7{
+  font-size: 2rem;
+  color: #fff;
+  text-align: center;
+}
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
