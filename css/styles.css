@@ -2489,8 +2489,6 @@ fieldset:disabled a.btn {
   pointer-events: none;
 }
 .but{
-  position:absolute;
-  left:600px;
   color: #fff;
   background-color: #64a19d;
   border-color: #64a19d;
