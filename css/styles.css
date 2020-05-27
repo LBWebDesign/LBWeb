@@ -2494,30 +2494,7 @@ fieldset:disabled a.btn {
   color: #fff;
   background-color: #64a19d;
   border-color: #64a19d;
-}
-@media (prefers-reduced-motion: reduce) {
-  .but {
-    transition: none;
-  }
-}
-.but:hover {
-  color: #212529;
-  text-decoration: none;
-}
-.but:focus, .but.focus {
-  outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(100, 161, 157, 0.25);
-}
-.but.disabled, .but:disabled {
-  opacity: 0.65;
-}
-.but:not(:disabled):not(.disabled) {
-  cursor: pointer;
-}
-a.but.disabled,
-fieldset:disabled a.but {
-  pointer-events: none;
-}
+
 .btn-primary {
   color: #fff;
   background-color: #64a19d;
