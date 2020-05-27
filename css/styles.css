@@ -378,9 +378,7 @@ h3, .h3 {
 }
 
 h4, .h4 {
-  font-size: 3rem;
-  color: #fff;
-  text-align: center;
+  font-size: 1.5rem;
 }
 
 h5, .h5 {
@@ -389,6 +387,8 @@ h5, .h5 {
 
 h6, .h6 {
   font-size: 1rem;
+}
+
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
@@ -4422,9 +4422,9 @@ input[type=button].btn-block {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #000000;
+  background-color: #fff;
   background-clip: border-box;
-  border: 1px solid rgb(90, 87, 87);
+  border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
 }
 .card > hr {
@@ -6328,7 +6328,7 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: #000;
+  background-color: #f8f9fa !important;
 }
 
 a.bg-light:hover, a.bg-light:focus,
@@ -6346,11 +6346,9 @@ button.bg-dark:hover,
 button.bg-dark:focus {
   background-color: #1d2124 !important;
 }
-.bg-blac
-{
- background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);}
+
 .bg-black {
-  background-color: #000;
+  background-color: #000000 !important;
 }
 
 a.bg-black:hover, a.bg-black:focus,
@@ -10062,7 +10060,7 @@ a.text-black:hover, a.text-black:focus {
 }
 
 .text-muted {
-  color: #86919a !important;
+  color: #6c757d !important;
 }
 
 .text-black-50 {
@@ -10333,7 +10331,7 @@ body {
 
 .about-section {
   padding-top: 10rem;
- background-color: #000;
+  background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
 }
 .about-section p {
   margin-bottom: 5rem;
